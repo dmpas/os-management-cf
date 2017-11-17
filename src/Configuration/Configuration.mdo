@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="063b0191-cabb-4455-941f-c80f694617e5">
+  <name>УправлениеОдноСкриптом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление ОдноСкриптом</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9ad27a75-d9a7-44c4-984c-38dbc323ed18"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c33f6db6-1b10-4ff1-bee5-450fb48451d6"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="2646490a-c60e-4c2b-8590-f5343be74bd7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="8eb41fc7-8782-489d-ab3d-45ca12866f56"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="4ba0f654-fafa-4386-aa33-e149df2d1594"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="184e932a-6681-4d1c-bf77-7ddd9c521799"/>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="a80bf9da-bf0c-4121-8f27-82b3941a42d5">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.УправлениеОдноСкриптом</subsystems>
+  <commonModules>CommonModule.СемантическоеВерсионирование</commonModules>
+  <catalogs>Catalog.СредыИсполнения</catalogs>
+  <catalogs>Catalog.ВерсииДвижка</catalogs>
+  <catalogs>Catalog.НаборыБиблиотек</catalogs>
+</mdclass:Configuration>

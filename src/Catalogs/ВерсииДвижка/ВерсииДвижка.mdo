@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="deb6d103-e8d6-4318-a9e5-09aa0562d1f6">
+  <producedTypes>
+    <objectType typeId="c2772eee-c369-4cb4-8749-d85cfb392f28" valueTypeId="53f9ec8d-6106-44a2-9864-93de1ce3ed7a">
+    </objectType>
+    <refType typeId="f5b2f77a-a70f-42df-989d-35345c24bef3" valueTypeId="956e4c58-0b0d-40c4-b74d-d6fe48082ce4">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="55351e3d-6ef3-42e1-a96e-54763b8fd976" valueTypeId="2a93ab3e-1cf3-4d42-9630-754b66ff3014">
+    </selectionType>
+    <listType typeId="991fdcac-3746-466c-81eb-2efc9e532d48" valueTypeId="1b240296-529e-433c-add0-eacf41224669">
+    </listType>
+    <managerType typeId="6078659c-14db-4572-a4fe-d969a18566e4" valueTypeId="9e1ab14d-f2cd-4021-aa10-b0372115bc72">
+    </managerType>
+  </producedTypes>
+  <name>ВерсииДвижка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии движка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВерсииДвижка.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>15</codeLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВерсииДвижка.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="6f85425d-4ccd-4c4b-9eee-236fadcee78d">
+    <name>ДатаВыхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выхода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f0a283cf-239b-4890-bcfd-c9e98a8cd3aa">
+    <name>ФайлАрхива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл архива</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="dec383ef-ec59-4a5e-83c4-ea9bec792a66">
+    <name>КонтрольнаяСуммаАрхива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная сумма архива</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="267f75f1-8ae7-4c08-89c3-db4d8f093b51">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

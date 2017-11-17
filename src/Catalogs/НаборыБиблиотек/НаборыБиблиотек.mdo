@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64382d47-215e-49b9-afb1-602aea61786e">
+  <producedTypes>
+    <objectType typeId="273f6237-829c-46ef-a48b-87b2917b776a" valueTypeId="ecd888c1-faf1-4c3f-8279-f9a500050d27">
+    </objectType>
+    <refType typeId="0ce89b74-b2dc-49d5-b79e-55ea9e70d516" valueTypeId="0597f541-7c49-42eb-adaf-254d5a036ac8">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="643e90f0-5afa-4351-9b2f-5c6bb8fea904" valueTypeId="9ab006dd-3141-4aa2-8885-2aab82c9d347">
+    </selectionType>
+    <listType typeId="f12c45cd-3e05-4b02-86bb-f0e9aa2742de" valueTypeId="c32b2c70-5192-4d3d-b3c7-f4864cb5214f">
+    </listType>
+    <managerType typeId="820ea84d-a14b-430d-be55-35789bfe54ba" valueTypeId="2d08aa40-74af-4384-8d38-7f5d02d21125">
+    </managerType>
+  </producedTypes>
+  <name>НаборыБиблиотек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы библиотек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаборыБиблиотек.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7660204d-81e5-4086-a526-9e0a67ec2457">
+    <name>КаталогБиблиотек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог библиотек</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

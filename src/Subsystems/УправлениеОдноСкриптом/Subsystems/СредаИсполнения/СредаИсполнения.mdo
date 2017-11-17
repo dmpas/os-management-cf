@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77fef866-f290-4cb6-93ce-92c085a90cb8">
+  <name>СредаИсполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Среда исполнения</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СредыИсполнения</content>
+  <content>Catalog.ВерсииДвижка</content>
+  <content>Catalog.НаборыБиблиотек</content>
+  <parentSubsystem>Subsystem.УправлениеОдноСкриптом</parentSubsystem>
+</mdclass:Subsystem>
