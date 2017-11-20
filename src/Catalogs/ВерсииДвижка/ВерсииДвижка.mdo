@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="deb6d103-e8d6-4318-a9e5-09aa0562d1f6">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="deb6d103-e8d6-4318-a9e5-09aa0562d1f6">
   <producedTypes>
     <objectType typeId="c2772eee-c369-4cb4-8749-d85cfb392f28" valueTypeId="53f9ec8d-6106-44a2-9864-93de1ce3ed7a">
     </objectType>
@@ -39,7 +39,43 @@
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
-  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="928ad536-68a1-4ab7-bf63-f4019a75bd68">
+      <name>Версия16</name>
+      <description></description>
+      <code xsi:type="core:StringValue">
+        <value>1.0.16</value>
+      </code>
+    </items>
+    <items id="18143346-3983-4c80-9786-809d7b4ea08e">
+      <name>Версия17</name>
+      <description></description>
+      <code xsi:type="core:StringValue">
+        <value>1.0.17</value>
+      </code>
+    </items>
+    <items id="6679075a-dcb1-4e10-abfa-cd8e3941a9ab">
+      <name>Версия18</name>
+      <description></description>
+      <code xsi:type="core:StringValue">
+        <value>1.0.18</value>
+      </code>
+    </items>
+    <items id="dd4405b9-39c8-4276-a468-223fefabbfd7">
+      <name>Версия15</name>
+      <description></description>
+      <code xsi:type="core:StringValue">
+        <value>1.0.15</value>
+      </code>
+    </items>
+    <items id="d47db0a8-37f0-4258-98fb-373ab8763b22">
+      <name>Версия14</name>
+      <description></description>
+      <code xsi:type="core:StringValue">
+        <value>1.0.14</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ВерсииДвижка.Form.ФормаЭлемента</defaultObjectForm>
@@ -79,6 +115,18 @@
       <stringQualifiers>
         <length>40</length>
       </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="c3aa5d81-ba0d-43bd-b38c-99f6c011a567">
+    <name>ПрямаяСсылкаНаАрхив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прямая ссылка на архив</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
     </type>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>

@@ -97,18 +97,103 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:LabelFieldExtInfo">
-      <handlers>
-        <event>Click</event>
-        <name>СведенияОбАрхивеНажатие</name>
-      </handlers>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <hyperlink>true</hyperlink>
     </extInfo>
+  </items>
+  <items xsi:type="form:Button">
+    <name>ЗагрузитьССайта</name>
+    <id>10</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ЗагрузитьССайтаРасширеннаяПодсказка</name>
+      <id>11</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Form.Command.ЗагрузитьССайта</commandName>
+    <representation>Auto</representation>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
+  </items>
+  <items xsi:type="form:Button">
+    <name>ЗагрузитьАрхив</name>
+    <id>12</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ЗагрузитьАрхивРасширеннаяПодсказка</name>
+      <id>13</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Form.Command.ЗагрузитьАрхив</commandName>
+    <representation>Auto</representation>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
+    <items xsi:type="form:Button">
+      <name>ФормаВыгрузитьФайлАрхива</name>
+      <id>14</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаВыгрузитьФайлАрхиваРасширеннаяПодсказка</name>
+        <id>15</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ВыгрузитьФайлАрхива</commandName>
+      <representation>Auto</representation>
+      <onlyInAllActions>true</onlyInAllActions>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -215,6 +300,56 @@
       <common>true</common>
     </edit>
   </attributes>
+  <formCommands>
+    <name>ЗагрузитьССайта</name>
+    <title>
+      <key>ru</key>
+      <value>Загрузить с сайта</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗагрузитьССайта</name>
+      </handler>
+    </action>
+    <modifiesStoredData>true</modifiesStoredData>
+  </formCommands>
+  <formCommands>
+    <name>ЗагрузитьАрхив</name>
+    <title>
+      <key>ru</key>
+      <value>Загрузить архив</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗагрузитьАрхив</name>
+      </handler>
+    </action>
+    <modifiesStoredData>true</modifiesStoredData>
+  </formCommands>
+  <formCommands>
+    <name>ВыгрузитьФайлАрхива</name>
+    <title>
+      <key>ru</key>
+      <value>Выгрузить файл архива</value>
+    </title>
+    <id>3</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВыгрузитьФайлАрхива</name>
+      </handler>
+    </action>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
