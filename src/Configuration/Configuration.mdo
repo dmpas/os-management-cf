@@ -31,6 +31,8 @@
   </languages>
   <subsystems>Subsystem.УправлениеОдноСкриптом</subsystems>
   <commonModules>CommonModule.СемантическоеВерсионирование</commonModules>
+  <commonModules>CommonModule.РаботаСДиалогами</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияПотвИсп</commonModules>
   <catalogs>Catalog.СредыИсполнения</catalogs>
   <catalogs>Catalog.ВерсииДвижка</catalogs>
   <catalogs>Catalog.НаборыБиблиотек</catalogs>

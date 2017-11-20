@@ -40,6 +40,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СредыИсполнения.Form.ФормаПомощникаУстановкиСреды</defaultObjectForm>
+  <defaultListForm>Catalog.СредыИсполнения.Form.ФормаСписка</defaultListForm>
   <attributes uuid="09c35560-ef58-4af4-815e-de0f9dcba3fe">
     <name>ВерсияДвижка</name>
     <synonym>
@@ -49,6 +51,7 @@
     <type>
       <types>CatalogRef.ВерсииДвижка</types>
     </type>
+    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <attributes uuid="90d1e9dc-b984-47ba-88f6-b714edefdb6e">
@@ -74,4 +77,59 @@
     </type>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <tabularSections uuid="044f350a-f748-46bc-b0f8-a10b287a01c6">
+    <producedTypes>
+      <objectType typeId="511616e5-76de-468e-ae0c-8a8db5a901e0" valueTypeId="8bda536f-54ba-486f-b632-335c4459d133">
+      </objectType>
+      <rowType typeId="db36c40b-621d-4c92-ba84-d27aef101323" valueTypeId="81e90203-10b6-41e8-b331-ad195bd32619">
+      </rowType>
+    </producedTypes>
+    <name>ПеременныеСреды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переменные среды</value>
+    </synonym>
+    <attributes uuid="8f2170b3-b32a-4ca3-bce7-78a11e735899">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="8dc47e85-cc6a-4ad7-8906-86b829fa1384">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0b586495-6aa1-477b-9f4c-5d1c81bfa272">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1b609ab1-4f0f-45c8-99fb-5e63a8c99f9c">
+    <name>ФормаПомощникаУстановкиСреды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма помощника установки среды</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
